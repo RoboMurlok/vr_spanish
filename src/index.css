@@ -10,7 +10,7 @@
   --color-bg-card: #fff;
   --color-shadow: #000000;
 } */
-/* 
+
 :root {
   --color-primary: #0b63d6;
   --color-primary-dark: #084fa8;
@@ -24,7 +24,7 @@
   --color-shadow: #000000;
 } */
 
-/* :root {
+ :root {
   --color-primary: #ff6b6b;
   --color-primary-dark: #d64545;
   --color-secondary: #ffe6e6;
@@ -35,7 +35,7 @@
   --color-bg-contact: linear-gradient(135deg, #ff6b6b, #d64545);
   --color-bg-card: #fff;
   --color-shadow: #000000;
-} */
+} 
 
 :root {
   --color-primary: #27ae60;
