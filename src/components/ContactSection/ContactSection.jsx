@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import "./ContactSection.css";
 
 export default function ContactSection() {
   const [formData, setFormData] = useState({

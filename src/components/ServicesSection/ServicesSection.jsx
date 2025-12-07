@@ -1,6 +1,3 @@
-import React from "react";
-import "./ServicesSection.css"; // стили можно брать из общего style.css или вынести отдельно
-
 const services = [
   {
     icon: "💼",
@@ -50,14 +47,18 @@ export default function ServicesSection() {
   return (
     <section id="services" className="section container">
       <h2 className="section-title">Nuestros servicios</h2>
-      <p className="section-sub">Soluciones integrales para finanzas personales y corporativas</p>
+      <p className="section-sub">
+        Soluciones integrales para finanzas personales y corporativas
+      </p>
       <ul className="grid services-grid">
         {services.map((service, index) => (
           <li className="card" key={index}>
             <div className="icon">{service.icon}</div>
             <h3 className="card-title">{service.title}</h3>
             <p className="card-desc">{service.desc}</p>
-            <a href={service.link} className="card-cta">{service.cta}</a>
+            <a href={service.link} className="card-cta">
+              {service.cta}
+            </a>
           </li>
         ))}
       </ul>

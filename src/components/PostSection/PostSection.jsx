@@ -1,6 +1,4 @@
-import React from "react";
 import { useParams } from "react-router-dom";
-import "./PostSection.css";
 import { posts } from "../../db/posts.js";
 
 export default function PostSection() {

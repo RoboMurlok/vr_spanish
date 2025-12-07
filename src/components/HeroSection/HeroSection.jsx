@@ -1,5 +1,3 @@
-import React from "react";
-import "./HeroSection.css";
 import { getUniqueImages } from "../../db/images";
 import { seed } from "../../../seed";
 

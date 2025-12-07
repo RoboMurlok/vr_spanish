@@ -1,6 +1,3 @@
-import React from "react";
-import "./Footer.css";
-
 const links = [
   { text: "Política de privacidad", href: "#" },
   { text: "Términos de uso", href: "#" },
