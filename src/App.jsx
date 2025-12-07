@@ -14,7 +14,6 @@ function App() {
           <Route index element={<Home />} />
           <Route path="/testimonials" element={<Reviews />} />
           <Route path="/blog" element={<Blog />} />
-          <Route path="/blog" element={<Blog />} />
           <Route path="/blog/:slug" element={<Post />} />
           <Route path="/faq" element={<FAQ />} />
         </Route>
